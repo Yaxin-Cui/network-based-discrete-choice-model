@@ -16,12 +16,16 @@ install.packages("statnet")
 
 ## Data
 
-The data files should be placed in the same directory as this Markdown file or in a specified path. The data files are:
+The data files should be placed in the same directory as the code file or in a specified path. The data files are:
 
 - `Sampled_data_to_share.csv`
 - `test_data_to_share.csv`
 
-## Part 1: Load Data and Network Construction
+## Codes: 
+
+The codes file can also be found in Code_choice_set_6.R
+
+### Part 1: Load Data and Network Construction
 
 ```R
 # data1-5000 customer, each has 6 products in choice set and 1 product finally buy
@@ -89,7 +93,7 @@ summary(net_purchase)
 summary(net_consideration)
 ```
 
-## Part 2: Network Visualization
+### Part 2: Network Visualization
 
 ```R
 mat_purchase <- as.matrix(net_purchase)
@@ -109,7 +113,7 @@ plot(net_consideration,
                          "#3399FF","#FF9900"))
 ```
 
-## Part 3: ERGM estimation
+### Part 3: ERGM estimation
 
 ```R
 ## Choice set 6: multinomial choice + varing choice set: offset and constraints
@@ -167,7 +171,7 @@ date()
 summary(ergm_choice6_both)
 ```
 
-## Part 4: ERGM Prediction
+### Part 4: ERGM Prediction
 
 ```R
 ############# Prepare the testing network
