@@ -110,6 +110,21 @@ mat_inv <- newList$mat_inv
 summary(net_purchase)
 summary(net_consideration)
 ```
+A brief glance at the output
+| Network attributes | net_purchase | net_consideration |
+|--------------------|--------------|-------------------|
+| Vertices | 5281 | 5281 |
+| Directed | FALSE | FALSE |
+| Hyper | FALSE | FALSE |
+| Loops | FALSE | FALSE |
+| Multiple | FALSE | FALSE |
+| Bipartite | 5000 | 5000 |
+| Total edges | 5000 | 30000 |
+| Missing edges | 0 | 0 |
+| Density | 0.0003586327 | 0.002151796 |
+| Vertex attributes | V1, V2, V3, V4 | V1, V2, V3, V4 |
+| Edge attributes | FALSE | FALSE |
+
 
 ### Part 2: Network Visualization
 
