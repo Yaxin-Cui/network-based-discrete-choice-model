@@ -1,15 +1,33 @@
 # network-based-discrete-choice-model
 Tutorial of network-based discrete choice modeling based on bipartite Exponential Random Graph Model (ERGM) approach. This demonstration contains code and data associated with the test case 1 (ChoiceSet6) in paper "A network-based discrete choice model for decision-based design."
 
+## License
+Feel free to use all or portions for your research or related projects so long as you provide the following citation information:
+
+Sha, Z., Cui, Y., Xiao, Y., Stathopoulos, A., Contractor, N., Fu, Y. and Chen, W., 2023. A network-based discrete choice model for decision-based design. Design Science, 9, p.e7.
+
+```
+@article{sha2023network,
+  title={A network-based discrete choice model for decision-based design},
+  author={Sha, Zhenghui and Cui, Yaxin and Xiao, Yinshuang and Stathopoulos, Amanda and Contractor, Noshir and Fu, Yan and Chen, Wei},
+  journal={Design Science},
+  volume={9},
+  pages={e7},
+  year={2023},
+  publisher={Cambridge University Press}
+}
+```
+
 ## Notes
 
 1. The data are anonymized, with each feature denoted by V1, V2, V3, and V4. The first three features (V1, V2, and V3) are continuous variables after scaling, while V4 is a categorical variable.
-2. The code is divided into four parts:
+2. The data provided is intended solely for tutorial purposes and should not be used to reproduce the results presented in the paper.
+3. The code is divided into four parts:
    - Part 1: Load data and network construction
    - Part 2: Network visualization
    - Part 3: ERGM estimation
    - Part 4: ERGM prediction
-3. The required package is the `statnet` package. You can install it by running the following command in R:
+4. The required package is the `statnet` package. You can install it by running the following command in R:
 ```R
 install.packages("statnet")
 ```
