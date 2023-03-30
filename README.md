@@ -145,6 +145,15 @@ plot(net_consideration,
      vertex.col = ifelse(network.vertex.names(net_consideration)>5000,
                          "#3399FF","#FF9900"))
 ```
+Below are the output visualizations, where blue nodes depict products and orange nodes represent customers. The edges connecting customers and products indicate that the customers consider or purchase the product. The popularity of products among customers is reflected by the size of the product nodes, with larger nodes indicating higher popularity.
+
+<table>
+  <tr>
+    <td><img src="Plots/net_consideration.PNG" title="Consideration network visualization" width="400"/>
+    <td><img src="Plots/net_purchase.PNG" title="Purchase network visualization" width="400"/>
+  </tr>
+ </table>
+
 
 ### Part 3: ERGM estimation
 
