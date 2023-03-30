@@ -1,4 +1,4 @@
-# network-based-discrete-choice-model
+# Network Based Discrete Choice Model
 Tutorial of network-based discrete choice modeling based on bipartite Exponential Random Graph Model (ERGM) approach. This demonstration contains code and data associated with the test case 1 (ChoiceSet6) in paper "A network-based discrete choice model for decision-based design."
 
 ## License
