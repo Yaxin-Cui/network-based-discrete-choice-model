@@ -212,6 +212,10 @@ date()
 
 summary(ergm_choice6_both)
 ```
+Below shows an example of the estimation result.
+
+<img src="Plots/ergm_choice6_star_estimation_result.PNG" title="ergm_choice6_star estimation result">
+
 
 ### Part 4: ERGM Prediction
 
