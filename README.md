@@ -222,8 +222,8 @@ Below shows an example of the estimation result.
 ```R
 ############# Prepare the testing network
 data_test <- read.csv("test_data_to_share.csv", header = TRUE)
-data_test$Make_origin <- as.factor(data_test$Make_origin)
-data_test$Make_origin <- relevel(data_test$Make_origin, "Chinese")
+data_test$V4 <- as.factor(data_test$V4)
+data_test$V4 <- relevel(data_test$V4, "A")
 
 # make network lists
 newList_test <- make_network(data_test)
