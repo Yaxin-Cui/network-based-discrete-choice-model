@@ -21,7 +21,7 @@ The data files should be placed in the same directory as the code file or in a s
 - `Sampled_data_to_share.csv`
 - `test_data_to_share.csv`
 
-## Codes: 
+## Codes
 
 The codes file can also be found in Code_choice_set_6.R
 
