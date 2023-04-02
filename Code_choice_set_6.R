@@ -179,7 +179,7 @@ prob_y_star <- matrix(0.0, n1, n2)
 model_train_star <- ergm_choice6_star #it should be a bipartite model
 
 # just run for a single iteratation to get ERGM structure for the test network
-ergm_choice6_star_test <- ergm(net_purchase_test ~ edges + offset(edgecov(mat_inv)) +
+ergm_choice6_star_test <- ergm(net_purchase_test ~ edges + offset(edgecov(mat_inv_test)) +
                                  b2cov("V1") + b2cov("V2") +
                                  b2cov("V3")  + b2factor("V4") + b2star(2),
                                offset.coef = -Inf, constraints=~b1degrees,
