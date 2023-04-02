@@ -212,7 +212,7 @@ date()
 
 summary(ergm_choice6_both)
 ```
-Below shows an example of the estimation result.
+Below shows an example of the estimation result, corresponding to the ChoiceSet6 test case and ERGM_Star model.
 
 <img src="Plots/ergm_choice6_star_estimation_result.PNG" title="ergm_choice6_star estimation result">
 
@@ -327,4 +327,5 @@ for(i in 1:sample_size){
 right_ratio = sum(right_wrong_ratio)/length(right_wrong_ratio)
 print(right_ratio)
 ```
+The output of the above code is 0.899, which is the top-3 prediction result by ERGM_Star in ChoiceSet6 test case.
 
