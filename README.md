@@ -21,7 +21,7 @@ Sha, Z., Cui, Y., Xiao, Y., Stathopoulos, A., Contractor, N., Fu, Y. and Chen, W
 ## Notes
 
 1. The data are anonymized, with each feature denoted by V1, V2, V3, and V4. The first three features (V1, V2, and V3) are continuous variables after scaling, while V4 is a categorical variable.
-2. The data provided is intended solely for tutorial purposes and should not be used to reproduce the results presented in the paper.
+2. The data and codes provided are solely for tutorial purposes and not intended to reproduce the results presented in the paper.
 3. The code is divided into four parts:
    - Part 1: Load data and network construction
    - Part 2: Network visualization
